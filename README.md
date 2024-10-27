@@ -10,9 +10,7 @@ Welcome to the **Attendance App** repository! This mobile app, built with **Kotl
 - 📸 **Attendance Photo**: Check-in/check-out feature with camera capture for attendance proof.
 - 📄 **Diary Upload**: Users can upload diary entries with text and photos, viewable in a dynamic list (RecyclerView).
 - 🗂 **Attendance History**: Track past check-in/out data.
-- 👍 **Like Feature**: Like and engage with diary entries.
 - ⚙️ **Profile Management**: Users can update personal details such as name and student ID.
-- 🗺️ **Easy Navigation**: Smooth transitions between pages for optimal usability.
 - 🎨 **Beautiful UI**: Designed with a focus on simplicity and user-friendliness.
 
 ---
