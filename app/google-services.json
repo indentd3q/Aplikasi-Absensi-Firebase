@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "988432954377",
+    "project_id": "mogabisa-34fdc",
+    "storage_bucket": "mogabisa-34fdc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988432954377:android:35e46f8e49701a7c55f4d8",
+        "android_client_info": {
+          "package_name": "com.example.lab_week_05"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuBbexwI0lRnj7h0MCOfI-sIowMmSJXmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

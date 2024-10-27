@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterFragment"
+    android:layout_marginTop="16dp"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/add_coffee_title"
+        android:layout_width="match_parent"
+        style="@style/text_display"
+        android:text="@string/register"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="24dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/email_input_wraper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/text_input"
+        android:hint="@string/email_input_message"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email_input_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_background" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password_input_wraper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/text_input"
+        android:hint="@string/password_input_message"
+        android:layout_marginBottom="24dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password_input_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_background" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/button"
+        android:text="@string/submit_button"
+        android:elevation="4dp"
+        android:backgroundTint="@color/primary"/>
+</LinearLayout>

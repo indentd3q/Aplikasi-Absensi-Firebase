@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UNION by Vincent</string>
+
+    <string name="submit_button">SUBMIT</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bottom_menu_add">Absensi</string>
+    <string name="bottom_menu_list">History</string>
+    <string name="login">Login</string>
+    <string name="email_input_message">Enter Email</string>
+    <string name="password_input_message">Enter Password</string>
+    <string name="register">Register</string>
+    <string name="regist_button">Register</string>
+    <string name="confirm_password_input_message">Confirm your password</string>
+</resources>
